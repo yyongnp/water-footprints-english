@@ -1,0 +1,555 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Water foot print</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="mainstyle.css">
+  <link rel="stylesheet" href="range%20slider%20bar.css">
+  
+</head>
+
+<body>
+
+
+  <div class="page1" id="p1">
+    
+      <div class="water1"><img src="watersm.svg"> </div>
+      <div class="qt2">
+        Let's guess your personality by water usage.
+      </div>
+
+      <div class="startbt">
+        <button onclick="playBtnSound1()"><div class="zoomin img">
+        <a href="#p2">
+            <img src="btstart.svg" id="start"></a> </div></button>
+    </div>
+      <div class="ft1">
+      </div>
+    
+  </div>
+
+
+  <div class="page2" id="p2">
+      <div class="water2"> <img src="watersm1.svg"> </div>
+      <div class="qtsm2">
+        How many clothes that you buy per month?
+      </div>
+      
+      <div class="zoomin img">
+      <div class="check1" onclick="popsound20()">
+          <img src="check.svg" id="check1"></div></div>
+      
+        <div class="clobox">
+        <div class="clott">
+          <img id="clothimg1" src="clot1.svg">
+        </div>
+      </div>
+      
+      <div>
+          <div class="slidecontainercloth" onclick="popsound1()">
+        <input type="range" min="1" max="6" value="1" class="slider" id="myRange1">
+      <br>
+        <span id="demo1"> </span>
+      </div>
+          
+          
+      </div>
+      
+      <div class="ft2">
+        <div class="btbox">
+          <div class="row">
+            <div class="bt" onclick="flashback1()">
+              <a href="#p1">
+      <img src="back.svg" ></a>
+            </div>
+            <div class="bt" onclick="playBtnSound2()">
+              <a href="#p3">
+      <img src="next.svg" id="next2"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+    
+
+
+
+
+
+  <div class="page3" id="p3">
+    
+      <div class="water3"><img src="watersm2.svg"> </div>
+      <div class="qtsm2">
+        What kind of shoes that you liked?
+      </div>
+      <div class="shoe">
+        <div class="shoe1" onclick="popsound2()">
+            <div class="zoomin img">
+          <button onclick="myFunction3()" id="bt3a">
+              <img id="shoe1" src="shoe1.svg" width="70px">Sneekers</button></div></div>
+          
+        <div class="shoe2"  onclick="popsound3()">
+            <div class="zoomin img">
+          <button onclick="myFunction4()" id="bt3b" style="margin-top: 25px;">
+              <img id="shoe2" src="shoe2.svg" width="70px">Flipflop</button></div></div>
+      </div>
+      
+          <div class="shoe">
+        <div class="shoe3" onclick="popsound4()">
+            <div class="zoomin img">
+          <button onclick="myFunction5()" id="bt3c" style="margin-top: 20px;">
+              <img id="shoe3" src="shoe3.svg" width="70px">Leather</button></div></div>
+
+        <div class="shoe4" onclick="popsound5()">
+            <div class="zoomin img">
+          <button onclick="myFunction15()" id="bt3d">
+              <img id="shoe4" src="shoe4.svg" width="70px">Boots</button></div></div>
+      </div>
+      
+      <div class="ft3">
+        <div class="btbox">
+          <div class="row">
+            <div class="bt" onclick="flashback2()">
+              <a href="#p2">
+      <img src="back.svg" ></a>
+            </div>
+            <div class="bt" onclick="playBtnSound3()">
+              <a href="#p4">
+      <img src="next.svg" id="next3"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </div>
+
+
+
+  <div class="page4" id="p4">
+    <div class="room">
+      <div class="water4"><img src="watersm3.svg"> </div>
+      <div class="qtsm2">
+        How many outfits that you change per week?
+      </div>
+        <div class="zoomin img">
+              <div class="check2" onclick="popsound21()">
+                  <img src="check.svg" id="check2"></div></div>
+        </div>
+      
+        <div class="basketbox">
+      <div class="basket">
+
+        <img id="clothimg2" src="cl1.svg">
+      </div>
+            </div>
+        
+                
+        <div>
+      <div class="slidecontainer" onclick="popsound6()">
+        <input type="range" min="0" max="6" value="0" class="slider" id="myRange2">
+        <p><span id="demo2"></span></p>
+      </div>
+            
+      <div class="ft4">
+        <div class="btbox">
+          <div class="row">
+            <div class="bt" onclick="flashback3()">
+              <a href="#p3">
+      <img src="back.svg"></a>
+            </div>
+
+            <div class="bt" onclick="playBtnSound4()">
+              <a href="#p5">
+      <img src="next.svg" id="next4"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="page5" id="p5">
+    <div class="restr">
+      <div class="water5"><img src="watersm4.svg"> </div>
+      <div class="qtsm2">
+        What is your cleaning method?
+      </div>
+        <div class="rowlandu">
+      <div class="row">
+        <div class="landu1" onclick="popsound7()">
+            <div class="zoomin img">
+          <button onclick="myFunction1()" id="bt5a">
+            <img id="landu1" src="landu1.svg" >
+                </button></div>by your hands.
+        </div>
+
+          <div class="landu2" onclick="popsound8()">
+              <div class="zoomin img">
+  <button onclick="myFunction2()" id="bt5b">
+    <img id="landu2" src="landu2.svg" > 
+              </button></div>Washing machine
+          </div>
+      </div>
+            <div class="zoomin img">
+      <div class="landu3"  onclick="popsound9()">
+        <button onclick="myFunction16()" id="bt5c">
+          <img id="landu3" src="landu3.svg" style="margin-top: 20px">
+          </button></div>
+      </div>
+            </div>
+            
+
+      <div class="ft5">
+        <div class="btbox">
+          <div class="row">
+            <div class="bt" onclick="flashback4()">
+              <a href="#p4">
+      <img src="back.svg"></a>
+            </div>
+            <div class="bt" onclick="playBtnSound5()">
+              <a href="#p6">
+      <img src="next.svg" id="next5" ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="page6" id="p6">
+    
+      <div class="water6"><img src="watersm5.svg"> </div>
+      <div class="qtsm2">
+        How often do you shower?
+      </div>
+      <div class="bubrow">
+        <div class="bub">
+          <div class="bib"  onclick="popsound10()">
+              <div class="zoomin img">
+            <button onclick="myFunction6()" id="bt6a">
+                <img id="bub1" src="bubble1.svg"></button></div>
+          </div>
+          <div class="bib" onclick="popsound11()">
+              <div class="zoomin img">
+            <button onclick="myFunction7()" id="bt6b">
+                <img id="bub2" src="bubble2.svg"></button></div>
+          </div>
+          <div class="bib" onclick="popsound12()">
+              <div class="zoomin img">
+            <button onclick="myFunction8()" id="bt6c">
+                <img id="bub3" src="bubble3.svg" ></button></div>
+          </div>
+        </div>
+      </div>
+    
+    <div class="ft6">
+      <div class="btbox">
+        <div class="row">
+          <div class="bt" onclick="flashback5()">
+            <a href="#p5">
+      <img src="back.svg"></a>
+          </div>
+          <div class="bt" onclick="playBtnSound6()">
+
+            <a href="#p7">
+      <img src="next.svg"  id="next6"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <div class="page7" id="p7">
+    
+      <div class="water7"><img src="watersm6.svg"> </div>
+      <div class="qtsm2">
+        How often do you bath?
+      </div>
+      <div class="bubrow">
+        <div class="bub">
+          <div class="bib"  onclick="popsound13()">
+              <div class="zoomin img">
+            <button onclick="myFunction9()" id="bt7a">
+      <img id="bubb1" src="bubble1.svg"></button>
+              </div>
+          </div>
+          <div class="bib"  onclick="popsound14()">
+              <div class="zoomin img">
+            <button onclick="myFunction10()" id="bt7b">
+      <img id="bubb2" src="bubble2.svg" ></button>
+              </div>
+          </div>
+          <div class="bib"  onclick="popsound15()">
+              <div class="zoomin img">
+            <button onclick="myFunction11()" id="bt7c">
+      <img id="bubb3" src="bubble3.svg"></button>
+              </div>
+          </div>
+        </div>
+      </div>
+      
+    
+    <div class="ft7">
+      <div class="btbox">
+        <div class="row">
+          <div class="bt"onclick="flashback6()">
+            <a href="#p6">
+      <img src="back.svg"></a>
+          </div>
+          <div class="bt" onclick="playBtnSound7()">
+            <a href="#p8">
+      <img src="next.svg"  id="next7" ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="page8" id="p8">
+    
+      <div class="water8"><img src="watersm7.svg"> </div>
+      <div class="qtsm2">
+        How often do you shhower or bath in one day?
+      </div>
+      <div class="bubrow">
+        <div class="bub">
+          <div class="bib"  onclick="popsound16()">
+              <div class="zoomin img">
+            <button onclick="myFunction12()" id="bt8a">
+      <img id="bubbb1" src="bubble11.svg"></button>
+              </div>
+          </div>
+          <div class="bib" onclick="popsound17()">
+              <div class="zoomin img">
+            <button onclick="myFunction13()" id="bt8b">
+      <img id="bubbb2" src="bubble22.svg"></button>
+              </div>
+          </div>
+          <div class="bib" onclick="popsound18()">
+              <div class="zoomin img">
+            <button onclick="myFunction14()" id="bt8c">
+      <img id="bubbb3" src="bubble33.svg"></button>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="ft8">
+        <div class="btbox">
+          <div class="row">
+            <div class="bt" onclick="flashback7()">
+              <a href="#p7">
+      <img src="back.svg"></a>
+            </div>
+            <div class="bt" onclick="playBtnSound8()">
+              <a href="#p9">
+      <img src="next.svg"  id="next8"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+
+
+  <div class="page9" id="p9">
+   
+      <div class="water9"><img src="watersm8.svg"> </div>
+      <div class="qtsm2">
+        How long to take a shower?
+      </div>
+      
+      <div class="zoomin img">
+              <div class="check3" onclick="popsound22()">
+      <img src="check.svg" id="check3"></div></div>
+      
+      <div class="doorbox">
+      <div class="door">
+        <img id="door" src="door1.svg">
+          </div></div>
+
+      <div>
+      <div class="slidecontainerdoor" onclick="popsound19()">
+        <input type="range" min="1" max="4" value="1" class="slider" id="myRange3">
+          
+        <p><span id="demo3"></span>Min</p>
+      </div>
+                
+      </div>
+      
+      <div class="ft9">
+        <div class="btbox">
+          <div class="row">
+            <div class="bt" onclick="flashback8()">
+              <a href="#p8">
+      <img src="back.svg"></a>
+            </div>
+            <div class="bt" onclick="playBtnSound9()">
+              <a href="#p10">
+      <img src="next.svg"id="subb"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+
+
+  <div class="pageresult" id="p10">
+    
+      <div class="water10"><img src="watersm9.svg"> </div>
+      <div class="yarkroo">
+      <div class="qt2">
+        What is your personality?
+      </div>
+          
+         <a href="#p11">
+        <div class="okbt" id="bt10" onclick="playBtnSound11()">
+            <div class="zoomin img">
+          <button onclick="cal()">
+              <img src="btsubmit2.png" class="ok">
+    
+                </button></div></div>
+      </a>
+      </div>
+    </div>
+  
+    
+  <div class="pageresult2" id="p11">
+    
+      <div class="resultbox">
+          <div class="boxend"></div>
+          <div class="resultimg">
+        <img id="resultimg">
+        <span id="result"> </span></div>
+             
+          
+          
+          
+              <div class ="roopao" id="roopao">
+                  <div class="zoomin img">
+   <a href="#ending">
+      <img src="roopao.svg" id="roopao" onclick="playBtnSound12()"></a>
+                  </div>   
+      </div>
+      </div>
+      <div class="ft10"></div>
+  </div>
+    
+    
+      <div class="ending" id="ending">
+          <div class="water10"><img src="watersm10.svg"> </div>
+          <div class="boxend"> </div>
+          <div class="qt2">7 Dangerous activities.</div>
+          <div class="boxped">
+
+
+          </div>
+          <div class="boxped">
+              <div class="boxend"></div>
+              <div class="shower">
+                  <div class="zoomin img"><img src=shower1.svg></div>
+              </div>
+               Shower 1 times<br>
+                  Used 100 Litre.
+              <div class="boxend"></div>
+          </div>
+          <div class="boxend"></div>
+          <div class="boxped">
+              <div class="boxend"></div>
+                <div class="bath">
+                    <div class="zoomin img"><img src=bath.svg></div></div>
+                Bath 1 times<br>
+                  Used 200 Litre.
+              <div class="boxend"></div>
+          </div>
+          <div class="boxend"></div>
+          <div class="boxped">
+              <div class="boxend"></div>
+                <div class="landu4">
+                    <div class="zoomin img"><img src=landu22.svg></div></div>
+                Wash by washing machine<br>
+                  Used 200 Litre.
+              <div class="boxend"></div>
+          </div>
+          <div class="boxend"></div>
+          <div class="boxped">
+              <div class="boxend"></div>
+                <div class="landu5">
+                    <div class="zoomin img"><img src=landu11.svg></div></div>
+                Wash by your hands.<br>
+                  Used 60 Litre.
+              <div class="boxend"></div>
+          </div>
+          <div class="boxend"></div>
+          <div class="boxped">
+              <div class="boxend"></div>
+                <div class="landu5">
+                    <div class="zoomin img"><img src=yorm.svg></div></div>
+                Colour dip-dye 10 Kilos.<br>
+                  Used 20 Litre per 1 step.
+              <div class="boxend"></div>
+          </div>
+          <div class="boxend"></div>
+          <div class="boxped">
+              <div class="boxend"></div>
+                <div class="jeans">
+                    <div class="zoomin img"><img src=jeans.svg></div></div>
+                Make 1 jeans<br>
+                  Used 8000 Litre.
+              <div class="boxend"></div>
+          </div>
+          <div class="boxend"></div>
+          <div class="boxped">
+              <div class="boxend"></div>
+                <div class="jeans">
+                    <div class="zoomin img"><img src=shoe4.svg></div></div>
+                Make 1 shoes<br>
+                  Used 8000 Litre.
+              <div class="boxend"></div>
+          </div>
+          <div class="boxend"></div>
+          
+          <div class="bt">
+              
+            <a href="index.html">
+                
+      <img src="backtotop.svg" onclick="playBtnSound10()"></a>
+          </div>
+       <div class="boxend"></div>
+    </div>
+  
+    
+
+  <script src="//static.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+  <script src='scroll.js'></script>
+  <script src="range%20slider%20bar1.js"></script>
+  <script src="range%20slider%20bar2.js"></script>
+  <script src="range%20slider%20bar3.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.js">
+  </script>
+  <script src="sound.js"></script>
+  <script src="botton.js"></script>
+  <script src="btclick.js"></script>
+  <script src="result.js"></script>
+ 
+</body>
+
+</html>
